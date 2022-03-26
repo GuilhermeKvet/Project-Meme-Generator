@@ -9,7 +9,6 @@ main{
     width: 350px;
     height: 200px;
     background-color: white;
-    border: 1px solid black;
 }
 #text-input{
     margin-top: 10px;
@@ -35,12 +34,31 @@ main{
 #meme-insert{
     margin-top: 10px;
 }
+#black{
+    background-color: rgb(88, 85, 85);
+}
 #fire{
     background-color: red;
 }
 #water{
-    background-color: rgb(10, 113, 230);
+    background-color: blue
 }
 #earth{
     background-color: green;
+}
+.black{
+    border: 1px solid black;
+}
+.fire{
+    border: 3px dashed red;
+}
+.water{
+    border: 5px double blue;
+}
+.earth{
+    border: 6px groove green;
+}
+#imagensProntas{
+    margin-top: 15px;
+    
 }
